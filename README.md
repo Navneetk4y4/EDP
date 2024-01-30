@@ -1,6 +1,3 @@
-
-Absolutely! Here's a tailored description for your "FeedBlock" project on GitHub:
-
 Project Name: FeedBlock
 
 Description:
