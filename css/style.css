@@ -173,12 +173,8 @@ a:focus {
 }
 
 
-.nav-item:hover{
+.custom_nav-container .navbar-nav .nav-link, .nav-item:hover .custom_nav-container .navbar-nav .nav-item.active .nav-link {
   color: #2a3af2;
- 
-}
-.custom_nav-container .navbar-nav .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #000000;
 }
 
 .custom_nav-container .navbar-nav .nav-item.active .nav-link {
