@@ -87,12 +87,9 @@
   }
 }
 
-
-
 @media (max-width: 420px) {
   .service_section .box {
     flex-direction: column;
-    height: 520px;
   }
 
   .service_section .box .img-box {
