@@ -87,6 +87,8 @@
   }
 }
 
+
+
 @media (max-width: 420px) {
   .service_section .box {
     flex-direction: column;

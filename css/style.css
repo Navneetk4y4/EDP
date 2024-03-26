@@ -453,8 +453,10 @@ a:focus {
   background-color: #b7b6b6;
   padding: 20px;
   border-radius: 5px;
-  height: 450px;
+  /* height: 450px; */
 }
+
+
 .box{
   background-color: #b7b6b6;
 }
