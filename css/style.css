@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
-  background-color: #3cb1e3;
+  background-color: #063042;
   overflow-x: hidden;
 }
 
@@ -793,7 +793,7 @@ a:focus {
 
 /* client section end */
 .info_section {
-  background-color: #3cb1e3;
+  background-color: #000000;
   color: #ffffff;
   padding: 45px 0 15px 0;
 }
