@@ -99,7 +99,7 @@ a:focus {
 }
 
 .hero_area .hero_bg_box {
-  position: sticky;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
