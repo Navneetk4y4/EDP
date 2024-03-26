@@ -405,13 +405,14 @@ a:focus {
 }
 
 
-.col-md-4 {
+.box {
+    
     /* Define initial box shadow */
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); /* Change initial shadow values as needed */
     transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
 }
 
-.col-md-4:hover {
+.box:hover {
     /* Add box shadow on hover */
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Change hover shadow values as needed */
 }
