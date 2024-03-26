@@ -429,7 +429,8 @@ a:focus {
 }
 
 .box:hover {
-    background-color: rgb(159, 161, 160);
+    height: 480;
+    
 
     /* box-shadow: 30px 30px 30px 30px rgba(50, 49, 49, 0.5); Change hover shadow values as needed */
 }
