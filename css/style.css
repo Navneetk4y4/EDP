@@ -275,7 +275,7 @@ a:focus {
 
 .slider_section .detail-box {
   color: #98f0f5;
-  box-shadow: #716868;
+  
 }
 
 .slider_section .detail-box h1 {
@@ -403,6 +403,19 @@ a:focus {
 .service_section {
   position: relative;
 }
+
+
+.col-md-4 {
+    /* Define initial box shadow */
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); /* Change initial shadow values as needed */
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.col-md-4:hover {
+    /* Add box shadow on hover */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Change hover shadow values as needed */
+}
+
 
 .service_section .box {
   display: -webkit-box;
