@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #3cb1e3;
   overflow-x: hidden;
 }
 
@@ -601,6 +601,7 @@ a:focus {
   margin-top: 45px;
 }
 
+
 .why_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
@@ -792,7 +793,7 @@ a:focus {
 
 /* client section end */
 .info_section {
-  background-color: #f5b0a0;
+  background-color: #3cb1e3;
   color: #ffffff;
   padding: 45px 0 15px 0;
 }
