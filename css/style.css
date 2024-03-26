@@ -128,7 +128,7 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background: #94f7ec;
+  background: #5f6665;
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -169,7 +169,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #00bbf0;
+  color: #707374;
 }
 
 .custom_nav-container .navbar-nav .nav-item.active .nav-link {
@@ -185,7 +185,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #00bbf0;
+  color: #2a23e5;
 }
 
 .custom_nav-container .navbar-toggler {
