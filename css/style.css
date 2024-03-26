@@ -275,6 +275,7 @@ a:focus {
 
 .slider_section .detail-box {
   color: #98f0f5;
+  box-shadow: #716868;
 }
 
 .slider_section .detail-box h1 {
