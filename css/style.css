@@ -430,7 +430,8 @@ a:focus {
 
 .box:hover {
     background-color: rgb(159, 161, 160);
-    box-shadow: 30px 30px 30px 30px rgba(50, 49, 49, 0.5); /* Change hover shadow values as needed */
+
+    /* box-shadow: 30px 30px 30px 30px rgba(50, 49, 49, 0.5); Change hover shadow values as needed */
 }
 
 
@@ -450,6 +451,7 @@ a:focus {
   background-color: #f8f8f9;
   padding: 20px;
   border-radius: 5px;
+  height: 450px;
 }
 
 .service_section .box .img-box {
