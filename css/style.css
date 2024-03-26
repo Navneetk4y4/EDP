@@ -86,6 +86,7 @@ a:focus {
 
 /*header section*/
 .hero_area {
+  background: rgb(138, 138, 246);
   position: relative;
   min-height: 100vh;
   display: -webkit-box;
@@ -137,6 +138,9 @@ a:focus {
 
 .header_section {
   padding: 15px 0;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
 }
 
 .header_section .container-fluid {
