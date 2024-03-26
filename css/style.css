@@ -418,7 +418,7 @@ a:focus {
 
 .box:hover {
     /* Add box shadow on hover */
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5); /* Change hover shadow values as needed */
+    box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.5); /* Change hover shadow values as needed */
 }
 
 
