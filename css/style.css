@@ -455,6 +455,9 @@ a:focus {
   border-radius: 5px;
   height: 450px;
 }
+.box{
+  background-color: #b7b6b6;
+}
 
 .service_section .box .img-box {
   display: -webkit-box;
