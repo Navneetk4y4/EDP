@@ -67,6 +67,10 @@ body {
   text-align: center;
 }
 
+.navh:hover {
+  color: #2a23e5;
+}
+
 a,
 /* a:hover,
 a:focus {
