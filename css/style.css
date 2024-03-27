@@ -67,15 +67,13 @@ body {
   text-align: center;
 }
 
-.navh:hover {
-  color: #2a23e5;
-}
+
 
 a,
-/* a:hover,
+a:hover,
 a:focus {
-  text-decoration: none;
-} */
+  text-decoration: #0f00e4;
+}
 
 a:hover,
 a:focus {
@@ -178,7 +176,7 @@ a:focus {
 }
 
 
-.nav-link:hover{
+.nav-item:hover{
   color: #4a57df;
  
 }
