@@ -68,10 +68,10 @@ body {
 }
 
 a,
-a:hover,
+/* a:hover,
 a:focus {
   text-decoration: none;
-}
+} */
 
 a:hover,
 a:focus {
@@ -175,7 +175,7 @@ a:focus {
 
 
 .nav-link:hover{
-  color: #2a3af2;
+  color: #4a57df;
  
 }
 .custom_nav-container .navbar-nav .nav-link, .nav-item:hover .custom_nav-container .navbar-nav .nav-item.active .nav-link {
