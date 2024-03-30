@@ -30,8 +30,9 @@ background-image: linear-gradient(182deg, #0b5978 0%, #000000 100%);
 transition: all 0.5s;
 }
 
-.cent_active {
-    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.21);
+.cent_active:hover {
+    box-shadow: 0 0 50px rgb(22, 210, 216);
+    transform: scale(1.1);
 }
 
 
