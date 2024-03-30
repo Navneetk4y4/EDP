@@ -472,7 +472,10 @@ a:focus {
   border-radius: 5px;
   /* height: 450px; */
 }
-
+.service_section .box:hover{
+  transform: scale(1.1);
+  transition: 0.8s;
+}
 
 .box{
   background-color: #b7b6b6;
@@ -598,6 +601,14 @@ a:focus {
           align-items: center;
   text-align: center;
 }
+
+
+.why_section .box:hover{
+transform: scale(1.05);
+transition: .8s;
+}
+
+
 
 .why_section .box .img-box {
   margin-bottom: 20px;
