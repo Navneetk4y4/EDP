@@ -146,8 +146,18 @@ a:focus {
   top: 0;
 }
 
-.nav-item:hover{
-   text-decoration: underline;
+.nav-item::after {
+  content: '';
+  width: 0%;
+  height: 3px;
+  background-color: rgb(107, 178, 219);
+  display: block;
+  margin: auto;
+  transition: width 0.5s ease;
+}
+
+.nav-item:hover::after {
+  width: 100%;
 }
 
 .header_section .container-fluid {
@@ -205,7 +215,7 @@ a:focus {
 }
 
 .nav_search-btn:hover {
-  color: #2a23e5;
+  color: rgb(57, 142, 190);
 }
 
 .custom_nav-container .navbar-toggler {
@@ -462,7 +472,10 @@ a:focus {
   border-radius: 5px;
   /* height: 450px; */
 }
-
+.service_section .box:hover{
+  transform: scale(1.1);
+  transition: 0.8s;
+}
 
 .box{
   background-color: #b7b6b6;
@@ -588,6 +601,14 @@ a:focus {
           align-items: center;
   text-align: center;
 }
+
+
+.why_section .box:hover{
+transform: scale(1.05);
+transition: .8s;
+}
+
+
 
 .why_section .box .img-box {
   margin-bottom: 20px;
