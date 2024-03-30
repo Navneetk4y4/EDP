@@ -104,7 +104,8 @@
     </div>
       </div>
 <div class="cont_btn">
-     <button class="btn_sign">SIGN IN</button>
+  <button type="button" class="btn_sign" onclick="login()">SIGN IN</button>
+
       
       </div>
       
@@ -116,7 +117,7 @@
 
 </div>
 <!-- partial -->
-  <script  src="js/login.js"></script>
+  <!-- <script  src="js/login.js"></script> -->
   <!-- jQery -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->
@@ -133,6 +134,31 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
   <!-- End Google Map -->
+  <script>
+    // Dummy credentials for demonstration
+    const dummyUser = {
+      email: "admin@feedblok.com",
+      password: "password123"
+    };
+    
+    function login() {
+      // Retrieve user input
+      const email = document.querySelector('[name="emauil_us"]').value;
+      const password = document.querySelector('[name="pass_us"]').value;
+    
+      // Validate credentials
+      if (email === dummyUser.email && password === dummyUser.password) {
+        // Success
+        alert("Login successful!");
+        // Here, you can redirect the user to another page or change the UI accordingly
+        window.location.href = "service.html"; // Example redirection
+      } else {
+        // Failure
+        alert("Login failed: Incorrect email or password.");
+      }
+    }
+    </script>
+    
 
 </body>
 </html>
