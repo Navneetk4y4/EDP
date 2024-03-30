@@ -146,6 +146,10 @@ a:focus {
   top: 0;
 }
 
+.nav-item:hover{
+   text-decoration: underline;
+}
+
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
