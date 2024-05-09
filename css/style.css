@@ -5,7 +5,10 @@ body {
   background-color: #000000;
   overflow-x: hidden;
 }
-
+.logo-img{
+  width: 150px;
+  height: 75px;
+}
 
 .layout_padding {
   padding: 90px 0;

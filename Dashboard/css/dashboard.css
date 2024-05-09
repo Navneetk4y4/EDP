@@ -3,9 +3,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: linear-gradient(90deg, #0b5978 0%, #605c5c 100%);
+  background-image: linear-gradient(177deg, #000001 0%, #202020 100%);
   color: rgb(255, 255, 255);
   font-family: 'Open Sans', sans-serif;
+}
+
+.logo-img{
+  width: 150px;
+  height: 75px;
 }
 
 .material-icons-outlined {
@@ -81,7 +86,7 @@ body {
 #sidebar {
   grid-area: sidebar;
   height: 100%;
-  background-color: rgba(82, 78, 78, 0.5);
+  
   color: rgb(255, 255, 255);
   overflow-y: auto;
   transition: all 0.5s;
